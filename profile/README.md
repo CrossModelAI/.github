@@ -38,6 +38,7 @@ curl https://api.crossmodel.ai/v1/chat/completions \
 | 📚 Docs | https://crossmodel.ai/docs |
 | 🧩 Models & pricing | https://crossmodel.ai/models |
 | 🔌 Compatibility | https://crossmodel.ai/docs/compatibility |
+| 💻 Code examples | [crossmodel-cookbook](https://github.com/CrossModelAI/crossmodel-cookbook) |
 | ✉️ Contact | hello@crossmodel.ai |
 
 ## Compatibility
@@ -61,4 +62,6 @@ print(resp.choices[0].message.content)
 ```
 
 See the [docs](https://crossmodel.ai/docs) for the Anthropic SDK, streaming, tool
-calling, structured output, and multimodal usage.
+calling, structured output, and multimodal usage — or the
+[**cookbook**](https://github.com/CrossModelAI/crossmodel-cookbook) for runnable
+curl / Python / JavaScript examples and tool integrations (Claude Code, Cline, and more).
