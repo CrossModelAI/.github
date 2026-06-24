@@ -12,7 +12,7 @@ curl https://api.crossmodel.ai/v1/chat/completions \
   -H "Authorization: Bearer $CROSSMODEL_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "deepseek/deepseek-chat",
+    "model": "deepseek/deepseek-v4-pro",
     "messages": [{"role": "user", "content": "Hello!"}]
   }'
 ```
@@ -54,7 +54,7 @@ client = OpenAI(
 )
 
 resp = client.chat.completions.create(
-    model="deepseek/deepseek-chat",
+    model="deepseek/deepseek-v4-pro",
     messages=[{"role": "user", "content": "Hello!"}],
 )
 print(resp.choices[0].message.content)
